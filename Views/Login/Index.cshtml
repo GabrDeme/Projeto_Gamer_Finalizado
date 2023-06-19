@@ -1,0 +1,55 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>
+    @TempData.Peek("Message")
+</h2>
+
+<head>
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" href="~/css/Header-Footer.css">
+</head>
+
+@* <form method="post" action="@Url.Action("Logar")">
+<label for="">Email</label>
+<input type="email" name="Email" requiered>
+
+<label for="">Senha</label>
+<input type="password" name="Senha" requiered>
+
+<button type="submit">Logar</button>
+</form> *@
+
+
+
+<!-- FORMULÁRIO DE LOGIN -->
+<main class="fundo-login">
+    <div class="bkg-login">
+        <form method="post" action="@Url.Action("Logar")" class="frm-login">
+            <div class="login-title">
+                <hr class="login-line">
+                <h1>Login</h1>
+            </div>
+            <div class="frm-linha">
+                <div class="bkg-input">
+                    <img src="~/assets/vector-user.svg" alt="ícone de usuário">
+
+                    <input type="email" id="email" name="Email" placeholder="Digite o seu email" requiered>
+                </div>
+            </div>
+            <div class="frm-linha">
+                <div class="bkg-input">
+                    <img src="~/assets/vector-key.svg" alt="ícone de chave">
+
+                    <input type="password" id="password" name="Senha" placeholder="Digite a sua senha" requiered>
+                </div>
+            </div>
+
+            <button class="btn-logar">Logar</button>
+        </form>
+    </div>
+
+</main>
