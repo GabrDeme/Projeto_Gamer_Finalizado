@@ -1,4 +1,4 @@
-# Gamer Project
+# Projeto Gamer - Project Gamer
 
 ## Problem to be Solved
 
@@ -31,6 +31,11 @@ With this project, we provide an innovative solution that blends e-sports compet
 
 ## Technologies 
 
+### Front-End
+- **HTML**: For structuring the content on the web pages.
+- **CSS**: For styling and layout of the web application.
+- **JavaScript**: For building user interfaces.
+
+### Back-End
 - **MVC Architecture**: The project follows the Model-View-Controller (MVC) design pattern to separate concerns and streamline development.
 - **C#**: Used for the back-end logic and to implement the MVC structure.
-- **HTML, CSS, JavaScript**: Front-end technologies for creating responsive and dynamic user interfaces.
