@@ -4,7 +4,7 @@
 
 In the fast-growing world of e-sports, organizing tournaments and ensuring player well-being are critical challenges. Players often spend extended periods without taking breaks, which can negatively impact their physical health and performance. Additionally, the task of organizing large-scale competitions requires a robust system to manage participants, schedules, and results efficiently.
 
-### Solution
+## Solution
 
 The **Gamer Project** is a web-based application designed to facilitate the organization of e-sports tournaments while prioritizing player well-being. It includes a feature that alerts players who have been sitting for more than two hours, reminding them to take a break and move around. This helps maintain player health while supporting sustained high-level performance. The system also organizes competitions, streamlining participant registration, match scheduling, and result tracking.
 
